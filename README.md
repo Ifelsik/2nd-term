@@ -1,2 +1,2 @@
-# HW
-Cherepnin Mikhail, IU4-23B
+# Mikhail_Cherepnin_IU4-23B
+
