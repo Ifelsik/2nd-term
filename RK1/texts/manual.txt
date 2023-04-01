@@ -1,0 +1,23 @@
+NAME:
+    print speed simulator
+
+SYNOPSIS
+    ./rk1 [Difficulty level]
+          [Max time]
+          [Max typo count]
+
+DESCRIPTION:          
+    Welcome to the print speed simulator!
+    Here you can test your printing speed. There are 3 difficulty levels: easy, medium and hard.
+    How to play?
+    You have to set the "Difficulty level" (required), and you can also choose 
+    the maximum printing time ("Max time") and the maximum allowable number of errors ("Max typo count").
+    GOOD LUCK!
+
+OPTIONS:
+    Difficulty levels:
+        easy medium hard debug
+    Max time:
+        in sec, natural number
+    Max typo count:
+        natural number
