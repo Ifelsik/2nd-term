@@ -69,9 +69,9 @@ int main(int argc, char **argv) {
         #endif
         
     } else if (strcmp(cmd, "-help") == 0) {
-        char msg[500];
+        char *msg = NULL;
 
-        readfile("./texts/manual.txt", msg);
+        readfile("./texts/manual.txt", &msg);
 
         puts(msg);
         return 0;
@@ -87,9 +87,9 @@ int main(int argc, char **argv) {
     int typo_count = 0;
     int max_x, max_y;
     
-    char filebuf[BUFFSIZE];
+    char *filebuf;
 
-    readfile(path, filebuf);
+    readfile(path, &filebuf);
 
     char c;
     
@@ -154,12 +154,12 @@ int main(int argc, char **argv) {
     time_t start_time = time(NULL);
     move(y, x);
     int previous_line_showed = 0;
-    int next_showed = 0;
+    int next_line_showed = 0;
     int index = 0;
     double d_time = 0;
 
     for (; index < strlen(filebuf); index++) {
-        if (!next_showed) {
+        if (!next_line_showed) {
             writeline(filebuf, start_index, max_y - 1);
             move(y, x);
         }
@@ -181,7 +181,7 @@ int main(int argc, char **argv) {
                     y = 0;
                     move(y, x);
                     deleteln();
-                    next_showed = 1;
+                    next_line_showed = 1;
                 } else {
                     previous_line_showed = 1;
                 }
@@ -202,9 +202,9 @@ int main(int argc, char **argv) {
 
         move(max_y - 1, 0);
         clrtoeol();
-        if (next_showed) {
+        if (next_line_showed) {
             start_index = writeline(filebuf, start_index, max_y - 1);
-            next_showed = 0;
+            next_line_showed = 0;
         }
     }
     

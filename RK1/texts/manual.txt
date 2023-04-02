@@ -1,5 +1,5 @@
 NAME:
-    print speed simulator
+    RK1: print speed simulator
 
 SYNOPSIS
     ./rk1 [Difficulty level]
@@ -15,7 +15,7 @@ DESCRIPTION:
     GOOD LUCK!
 
 OPTIONS:
-    Difficulty levels:
+    Difficulty level:
         easy medium hard debug
     Max time:
         in sec, natural number

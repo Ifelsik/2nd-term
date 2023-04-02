@@ -1,4 +1,5 @@
 #include <ncurses.h>
+#include <string.h>
 
 int writeline(char *text, int start_index, int y) {
     int x = 0;

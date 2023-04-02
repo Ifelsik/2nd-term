@@ -1,7 +1,7 @@
 #ifndef FILE_H
 #define FILE_H
 
-int readfile(const char* path, char *str);
+int readfile(const char* path, char **str);
 
 #define DEBUG 0
 

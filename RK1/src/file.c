@@ -1,17 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int readfile(const char *path, char *str) {
+int readfile(const char *path, char **str) {
     FILE *file_p = fopen(path, "r");
 
     if (file_p != NULL) {
-        int i = 0;
-        char c;
 
-        while ((c = (char) fgetc(file_p)) != EOF) {
-            str[i++] = c;
-        }
-        str[i] = '\0';
-        str[i + 1] = '\0';
+        fseek(file_p, 0, SEEK_END);
+        int len = ftell(file_p);  // len of file
+        fseek(file_p, 0, SEEK_SET);
+
+        *str = (char*) malloc(sizeof(char) * (len + 1));
+        if (NULL != *str)
+            fread(*str, sizeof(char), len + 1, file_p);
+        else
+            return 1;
+
         fclose(file_p);
     }
     else {
