@@ -1,0 +1,36 @@
+{
+  "students": [
+    {
+      "student_id": 0,
+      "student_name": "Andrew",
+      "student_record_number": 1337,
+      "student_rating": 4.15,
+      "student_attendance": 45,
+      "student_login": "andy"
+    },
+    {
+      "student_id": 1,
+      "student_name": "Nikita",
+      "student_record_number": 228,
+      "student_rating": 3.71,
+      "student_attendance": 34,
+      "student_login": "nikos"
+    },
+    {
+      "student_id": 2,
+      "student_name": "Adik",
+      "student_record_number": 1488,
+      "student_rating": 4.8,
+      "student_attendance": 21,
+      "student_login": "adik1488"
+    },
+    {
+      "student_id": 3,
+      "student_name": "Biba",
+      "student_record_number": 2004,
+      "student_rating": 2.1,
+      "student_attendance": 66,
+      "student_login": "biboran"
+    }
+  ]
+}
