@@ -1,0 +1,23 @@
+# ninja log v5
+5	460	7051943220476592	build.ninja	b00a6e0e5ccbee52
+2	88	7051935614831360	CMakeFiles/HW7.dir/main.c.obj	b869af963f6c3073
+2	87	7051936119391455	CMakeFiles/HW7.dir/src/mark_class.c.obj	a8c3ab0a611b705f
+5	202	7051695250225212	CMakeFiles/HW7.dir/src/students.c.obj	79c8845fd5b64ca2
+32	257	7051692012658852	CMakeFiles/HW7.dir/src/file.c.obj	385ee4dc75e85b12
+87	181	7051936120286934	HW7.exe	3a9b1c81168abb82
+1	189	7051943220476592	build.ninja	b00a6e0e5ccbee52
+2	98	7051943222419865	CMakeFiles/HW7.dir/main.c.obj	b869af963f6c3073
+7	110	7051943222535879	CMakeFiles/HW7.dir/src/attendance_class.c.obj	72966c1850dc32b3
+110	222	7051943223614099	HW7.exe	95ce2e65aaeda9a
+8	94	7051944094139755	CMakeFiles/HW7.dir/src/attendance_class.c.obj	72966c1850dc32b3
+3	96	7051944094139755	CMakeFiles/HW7.dir/src/mark_class.c.obj	a8c3ab0a611b705f
+96	203	7051944095191924	HW7.exe	95ce2e65aaeda9a
+2	92	7051944257281546	CMakeFiles/HW7.dir/src/mark_class.c.obj	a8c3ab0a611b705f
+92	192	7051944258239444	HW7.exe	95ce2e65aaeda9a
+2	92	7051944528255936	CMakeFiles/HW7.dir/src/mark_class.c.obj	a8c3ab0a611b705f
+9	100	7051944528338079	CMakeFiles/HW7.dir/src/attendance_class.c.obj	72966c1850dc32b3
+101	197	7051944529254432	HW7.exe	95ce2e65aaeda9a
+2	87	7051945591400295	CMakeFiles/HW7.dir/main.c.obj	b869af963f6c3073
+88	191	7051945592408833	HW7.exe	95ce2e65aaeda9a
+2	91	7051946761146496	CMakeFiles/HW7.dir/src/mark_class.c.obj	a8c3ab0a611b705f
+91	186	7051946762058190	HW7.exe	95ce2e65aaeda9a
