@@ -34,30 +34,30 @@ int main(int argc, char *argv[]) {
                 fprintf(stderr, "positive has Null pointer\n");
                 exit(EXIT_FAILURE);
             }
-//    negative = (long long *) calloc(abs_min, sizeof(long long));
-//    while (fgets(string, MAX_LEN, file_p) != NULL) {
-//        long long num = 0;
-//        sscanf(string, "%lld", &num);
-//        if (num > max) {
-//            max = num + 1;
-//            positive = (long long *) realloc(positive, max * sizeof(long long));
-//            if (positive == NULL) {
-//                fprintf(stderr, "positive has Null pointer\n");
-//                exit(EXIT_FAILURE);
-//            }
-//        } else if (-num > abs_min) {
-//            abs_min = -num + 1;
-//            negative = (long long *) realloc(negative, abs_min * sizeof(long long));
-//            if (negative == NULL) {
-//                fprintf(stderr, "negative has Null pointer\n");
-//                exit(EXIT_FAILURE);
-//            }
-//        }
-//        if (num >= 0)
-//            positive[num]++;
-//        else
-//            negative[-num]++;
-//    }
+    negative = (long long *) calloc(abs_min, sizeof(long long));
+    while (fgets(string, MAX_LEN, file_p) != NULL) {
+        long long num = 0;
+        sscanf(string, "%lld", &num);
+        if (num > max) {
+            max = num + 1;
+            positive = (long long *) realloc(positive, max * sizeof(long long));
+            if (positive == NULL) {
+                fprintf(stderr, "positive has Null pointer\n");
+                exit(EXIT_FAILURE);
+            }
+        } else if (-num > abs_min) {
+            abs_min = -num + 1;
+            negative = (long long *) realloc(negative, abs_min * sizeof(long long));
+            if (negative == NULL) {
+                fprintf(stderr, "negative has Null pointer\n");
+                exit(EXIT_FAILURE);
+            }
+        }
+        if (num >= 0)
+            positive[num]++;
+        else
+            negative[-num]++;
+    }
 
     fclose(file_p);
 
