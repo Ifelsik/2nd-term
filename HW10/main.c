@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
         exit(EXIT_FAILURE);
     }
 
-    positive = (long long *) calloc(4294967295 * 10/16, sizeof(long long));
+    positive = (long long *) calloc(max, sizeof(long long));
     if (positive == NULL) {
                 fprintf(stderr, "positive has Null pointer\n");
                 exit(EXIT_FAILURE);
