@@ -148,7 +148,9 @@ void studentbook_showAllStudentsWithBook(
                 printf("Return date: %s\n", books_at_student->return_date);
                 student_info(students_list, students_list->rb_num);
             }
+            books_at_student = books_at_student->next;
         }
+        students_list = students_list->next;
     }
     log_msg("'studentbook_showAllStudentsWithBook': success");
 }
