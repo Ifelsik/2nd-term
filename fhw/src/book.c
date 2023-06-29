@@ -120,9 +120,9 @@ void book_add(Book_t **books_list_ptr) {
         return;
     }
     printf("Enter new book's authors:\n");
-    scanf("%s", temp->authors);  // scanf() reading ends at gap
+    scanf(" %[^\n]s", temp->authors);  // scanf() reading ends at gap
     printf("Enter new book's title:\n");
-    scanf("%s", temp->title);  // scanf() reading ends at gap
+    scanf(" %[^\n]s", temp->title);  // scanf() reading ends at gap
     printf("Enter new book's total number:\n");
     scanf("%u", &(temp->total));
 

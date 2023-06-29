@@ -19,17 +19,14 @@ void cli(User_t *user, Student_t **students_list_ptr, Book_t **books_list_ptr) {
         printf("Exit...\n");
         return;
     }
-    int opt;
-    getc(stdin);  // retarded thing
+    char opt;
     do {
         printf("Menu. Select option\n");
         printf("1. Books\n");
         printf("2. Students\n");
         printf("0. Shut down\n");
         
-        fflush(stdin);
-        opt = getc(stdin);
-        fflush(stdin);
+        scanf(" %[^\n]c", &opt);
         switch (opt) {
             case '0': 
                 printf("Exit...\n");
@@ -54,15 +51,14 @@ void cli_studentsMenu(Student_t **students_list_ptr) {
     printf("4. show student's info\n");
     printf("5. search by surname\n");
     printf("0. to return\n");
-    int opt;
+    char opt;
     char *buffer = (char*) calloc(BASE_STRING_LEN, sizeof(char));
     if (NULL == buffer) {
         err_msg("'cli_studentsMenu': 'buffer' calloc err");
         log_msg("'cli_studentsMenu': 'buffer' calloc err");
     }
     do {
-        opt = getc(stdin);
-        fflush(stdin);
+        scanf(" %[^\n]c", &opt);
         switch (opt) {
             case '0': return;
             case '1':
@@ -106,7 +102,7 @@ void cli_booksMenu(Book_t **books_list_ptr, Student_t **students_list_ptr) {
     printf("7. take a book from a student\n");
     printf("0. to return\n");
 
-    int opt;
+    char opt;
     unsigned long long isbn;
     char *buffer = (char*) calloc(BASE_STRING_LEN, sizeof(char));
     if (NULL == buffer) {
@@ -114,8 +110,7 @@ void cli_booksMenu(Book_t **books_list_ptr, Student_t **students_list_ptr) {
         log_msg("'cli_studentsMenu': 'buffer' calloc err");
     }
     do {
-        opt = getc(stdin);
-        fflush(stdin);
+        scanf(" %[^\n]c", &opt);
         switch (opt) {
             case '0': return;
             case '1':

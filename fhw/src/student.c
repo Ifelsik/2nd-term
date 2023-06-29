@@ -203,7 +203,7 @@ void student_add(Student_t **students_list_ptr) {
     printf("Enter faculty:\n");
     scanf("%s", student->faculty);
     printf("Enter speciality:\n");
-    scanf("%[^\n]s", student->speciality);
+    scanf(" %[^\n]s", student->speciality);
 
     
     student->next = (*students_list_ptr);
@@ -327,7 +327,7 @@ void student_save(Student_t *students_list,
     
     Student_t *student = students_list;
     while (student != NULL) {
-        fprintf(file_students, "%s,%s,%s,%s,%s\n",
+        fprintf(file_students, "%s,%s,%s,%s,%s",
                 student->rb_num,
                 student->name,
                 student->surname,
@@ -350,7 +350,7 @@ void student_save(Student_t *students_list,
     while (students_list != NULL) {
         StudentBook_t *books_list = students_list->book_list;
         while (books_list != NULL) {
-            fprintf(file_studentsBooks, "%llu,%s,%s\n",
+            fprintf(file_studentsBooks, "%llu,%s,%s",
                     books_list->isbn,
                     students_list->rb_num,
                     books_list->return_date);
