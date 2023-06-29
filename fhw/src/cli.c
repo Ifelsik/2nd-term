@@ -15,7 +15,7 @@ void cli(User_t *user, Student_t **students_list_ptr, Book_t **books_list_ptr) {
         return;
     }
     if (!user->books_access && user->students_access) {
-        cli_studentsMenu(students_list_ptr);
+        cli_studentsMenu(students_list_ptr, books_list_ptr);
         printf("Exit...\n");
         return;
     }
@@ -35,7 +35,7 @@ void cli(User_t *user, Student_t **students_list_ptr, Book_t **books_list_ptr) {
                 cli_booksMenu(books_list_ptr, students_list_ptr);
                 break;
             case '2':
-                cli_studentsMenu(students_list_ptr);
+                cli_studentsMenu(students_list_ptr, books_list_ptr);
                 break;
             default:
                 printf("Unsupported operation! Try again\n");
@@ -43,13 +43,14 @@ void cli(User_t *user, Student_t **students_list_ptr, Book_t **books_list_ptr) {
     } while (opt != '0');
 }
 
-void cli_studentsMenu(Student_t **students_list_ptr) {
+void cli_studentsMenu(Student_t **students_list_ptr, Book_t **books_list_ptr) {
     printf("Students. Select the option:\n");
     printf("1. add student\n");
     printf("2. delete student\n");
     printf("3. edit student\n");
     printf("4. show student's info\n");
     printf("5. search by surname\n");
+    printf("6. show all books at student\n");
     printf("0. to return\n");
     char opt;
     char *buffer = (char*) calloc(BASE_STRING_LEN, sizeof(char));
@@ -84,6 +85,12 @@ void cli_studentsMenu(Student_t **students_list_ptr) {
                 scanf("%s", buffer);
                 student_findBySurname(*students_list_ptr, buffer);
                 break;
+            case '6':
+                printf("Enter record book:\n");
+                scanf("%s", buffer);
+                studentbook_showAllBooksAtStudent(*students_list_ptr, *books_list_ptr,
+                                                                                buffer);
+                break;
             default:
                 printf("Unsupported operation! Try again\n");
         }
@@ -100,6 +107,7 @@ void cli_booksMenu(Book_t **books_list_ptr, Student_t **students_list_ptr) {
     printf("5. edit book\n");
     printf("6. give a book to a student\n");
     printf("7. take a book from a student\n");
+    printf("8. show all students with book\n");
     printf("0. to return\n");
 
     char opt;
@@ -149,6 +157,11 @@ void cli_booksMenu(Book_t **books_list_ptr, Student_t **students_list_ptr) {
                 scanf("%llu", &isbn);
                 studentbook_returnBook(*students_list_ptr, *books_list_ptr,
                             buffer, isbn);
+                break;
+            case '8':
+                printf("Enter isbn:\n");
+                scanf("%llu", &isbn);
+                studentbook_showAllStudentsWithBook(*students_list_ptr, *books_list_ptr, isbn);
                 break;
             default:
                 printf("Unsupported operation! Try again\n");
