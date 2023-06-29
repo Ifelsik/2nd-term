@@ -3,4 +3,4 @@ project(HW10 C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(HW10 main.c src/sort.c src/sort.h)
+add_executable(HW10 main.c src/sort.c include/sort.h)
