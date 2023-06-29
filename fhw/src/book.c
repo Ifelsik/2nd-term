@@ -260,9 +260,9 @@ void book_edit(Book_t *books_list, unsigned long long isbn) {
         return;
     }    
     printf("Enter new book's authors:\n");
-    scanf("%s", book->authors);
+    scanf(" %[^\n]s", book->authors);
     printf("Enter new book's title:\n");
-    scanf("%s", book->title);
+    scanf(" %[^\n]s", book->title);
     printf("Enter new book's total number:\n");
     scanf("%u", &(book->total));
 }
