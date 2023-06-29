@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "data_parser.h": "c",
+        "main.h": "c",
+        "sha-256.h": "c",
+        "string.h": "c",
+        "book.h": "c",
+        "student.h": "c",
+        "student_book.h": "c",
+        "cli.h": "c",
+        "stdio.h": "c",
+        "stdbool.h": "c",
+        "time.h": "c"
+    }
+}
