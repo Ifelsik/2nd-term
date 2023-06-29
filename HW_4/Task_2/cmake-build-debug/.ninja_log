@@ -1,0 +1,5 @@
+# ninja log v5
+4	174	7002296560724800	CMakeFiles/Task_2.dir/config.c.obj	cd41633f386b634d
+208	434	7006827842110761	Task_2.exe	7260f019e686ec51
+6	208	7006827839937322	CMakeFiles/Task_2.dir/main.c.obj	48de7a4f4001e70
+18	179	7006827839631716	CMakeFiles/Task_2.dir/foo.c.obj	6d83ccda73d61c19
