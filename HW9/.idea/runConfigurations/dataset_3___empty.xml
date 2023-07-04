@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="dataset 3 | empty" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&quot;../files/input_3.txt&quot;" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HW9" TARGET_NAME="HW9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HW9" RUN_TARGET_NAME="HW9">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
