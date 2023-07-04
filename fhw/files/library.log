@@ -1,0 +1,429 @@
+29.06.2023 17:39:13,'auth_init': success
+29.06.2023 17:39:13,'book_init': success
+29.06.2023 17:39:13,'student_init': success
+29.06.2023 17:39:22,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 17:39:22,'cli': Logged as 'admin2'
+29.06.2023 17:42:05,'auth_init': success
+29.06.2023 17:42:05,'book_init': success
+29.06.2023 17:42:05,'student_init': success
+29.06.2023 17:42:11,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 17:42:11,'cli': Logged as 'admin2'
+29.06.2023 17:42:48,'book_save': book's data successfully saved
+29.06.2023 17:42:48,'student_save': students' data successfully saved
+29.06.2023 17:42:48,'student_save': students' book data successfully saved
+29.06.2023 17:42:48,'auth_save': user's data successfully saved
+29.06.2023 17:42:48,Terminated
+
+29.06.2023 17:49:04,'auth_init': success
+29.06.2023 17:49:04,'book_init': success
+29.06.2023 17:49:04,'student_init': success
+29.06.2023 17:53:06,'auth_init': success
+29.06.2023 17:53:06,'book_init': success
+29.06.2023 17:53:06,'student_init': success
+29.06.2023 17:54:09,'auth_init': success
+29.06.2023 17:54:09,'book_init': success
+29.06.2023 17:54:09,'student_init': success
+29.06.2023 17:54:21,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 17:54:21,'cli': Logged as 'admin2'
+29.06.2023 17:54:31,'book_save': book's data successfully saved
+29.06.2023 17:54:31,'student_save': students' data successfully saved
+29.06.2023 17:54:31,'student_save': students' book data successfully saved
+29.06.2023 17:54:31,'auth_save': user's data successfully saved
+29.06.2023 17:54:31,Terminated
+
+29.06.2023 17:57:08,'auth_init': success
+29.06.2023 17:57:08,'book_init': success
+29.06.2023 17:57:08,'student_init': success
+29.06.2023 17:57:13,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 17:57:13,'cli': Logged as 'admin2'
+29.06.2023 17:57:17,'book_save': book's data successfully saved
+29.06.2023 17:57:17,'student_save': students' data successfully saved
+29.06.2023 17:57:17,'student_save': students' book data successfully saved
+29.06.2023 17:57:17,'auth_save': user's data successfully saved
+29.06.2023 17:57:17,Terminated
+
+29.06.2023 18:09:11,'auth_init': success
+29.06.2023 18:09:11,'book_init': success
+29.06.2023 18:09:11,'student_init': success
+29.06.2023 18:09:17,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 18:09:17,'cli': Logged as 'admin2'
+29.06.2023 18:09:32,'book_save': book's data successfully saved
+29.06.2023 18:09:32,'student_save': students' data successfully saved
+29.06.2023 18:09:32,'student_save': students' book data successfully saved
+29.06.2023 18:09:32,'auth_save': user's data successfully saved
+29.06.2023 18:09:32,Terminated
+
+29.06.2023 18:17:28,'auth_init': success
+29.06.2023 18:17:28,'book_init': success
+29.06.2023 18:17:28,'student_init': success
+29.06.2023 18:17:43,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 18:17:43,'cli': Logged as 'admin2'
+29.06.2023 18:26:36,'auth_init': success
+29.06.2023 18:26:36,'book_init': success
+29.06.2023 18:26:36,'student_init': success
+29.06.2023 18:26:41,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 18:26:41,'cli': Logged as 'admin2'
+29.06.2023 18:28:55,'auth_init': success
+29.06.2023 18:28:55,'book_init': success
+29.06.2023 18:28:55,'student_init': success
+29.06.2023 18:29:07,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 18:29:07,'cli': Logged as 'admin2'
+29.06.2023 18:32:25,'book_save': book's data successfully saved
+29.06.2023 18:32:25,'student_save': students' data successfully saved
+29.06.2023 18:32:25,'student_save': students' book data successfully saved
+29.06.2023 18:32:25,'auth_save': user's data successfully saved
+29.06.2023 18:32:25,Terminated
+
+29.06.2023 18:59:41,'auth_init': success
+29.06.2023 18:59:41,'book_init': success
+29.06.2023 18:59:41,'student_init': success
+29.06.2023 18:59:45,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 18:59:45,'cli': Logged as 'admin2'
+29.06.2023 18:59:54,'studentbook_showAllStudentsWithBook': students haven't books
+29.06.2023 19:00:42,'auth_init': success
+29.06.2023 19:00:42,'book_init': success
+29.06.2023 19:00:42,'student_init': success
+29.06.2023 19:00:54,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:00:54,'cli': Logged as 'admin2'
+29.06.2023 19:01:05,'studentbook_showAllBooksAtStudent': Success!
+29.06.2023 19:02:08,'studentbook_showAllStudentsWithBook' err: book isn't found
+29.06.2023 19:17:44,'auth_init': success
+29.06.2023 19:17:44,'book_init': success
+29.06.2023 19:17:44,'student_init': success
+29.06.2023 19:17:49,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:17:49,'cli': Logged as 'admin2'
+29.06.2023 19:18:16,'studentbook_showAllStudentsWithBook': students haven't books
+29.06.2023 19:19:46,'auth_init': success
+29.06.2023 19:19:46,'book_init': success
+29.06.2023 19:19:46,'student_init': success
+29.06.2023 19:22:47,'auth_init': success
+29.06.2023 19:22:47,'book_init': success
+29.06.2023 19:22:47,'student_init': success
+29.06.2023 19:22:52,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:22:52,'cli': Logged as 'admin2'
+29.06.2023 19:24:56,'auth_init': success
+29.06.2023 19:24:56,'book_init': success
+29.06.2023 19:24:56,'student_init': success
+29.06.2023 19:25:01,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:25:01,'cli': Logged as 'admin2'
+29.06.2023 19:25:59,'auth_init': success
+29.06.2023 19:25:59,'book_init': success
+29.06.2023 19:25:59,'student_init': success
+29.06.2023 19:26:11,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:26:11,'cli': Logged as 'admin2'
+29.06.2023 19:32:24,'auth_init': success
+29.06.2023 19:32:24,'book_init': success
+29.06.2023 19:32:24,'student_init': success
+29.06.2023 19:32:31,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:32:31,'cli': Logged as 'admin2'
+29.06.2023 19:32:58,'studentbook_showAllStudentsWithBook': success
+29.06.2023 19:38:27,'auth_init': success
+29.06.2023 19:38:27,'book_init': success
+29.06.2023 19:38:27,'student_init': success
+29.06.2023 19:38:31,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:38:31,'cli': Logged as 'admin2'
+29.06.2023 19:38:54,'studentbook_showAllStudentsWithBook': success
+29.06.2023 19:40:08,'studentbook_showAllBooksAtStudent': Success!
+29.06.2023 19:43:31,'studentbook_take': success
+29.06.2023 19:44:20,'studentbook_showAllStudentsWithBook': success
+29.06.2023 19:46:17,'studentbook_showAllBooksAtStudent': Success!
+29.06.2023 19:46:36,'book_save': book's data successfully saved
+29.06.2023 19:46:36,'student_save': students' data successfully saved
+29.06.2023 19:46:36,'student_save': students' book data successfully saved
+29.06.2023 19:46:36,'auth_save': user's data successfully saved
+29.06.2023 19:46:36,Terminated
+
+29.06.2023 19:46:55,'auth_init': success
+29.06.2023 19:46:55,'book_init': success
+29.06.2023 19:46:55,'student_init': success
+29.06.2023 19:47:10,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:47:10,'cli': Logged as 'admin2'
+29.06.2023 19:48:36,'studentbook_take': student isn't found
+29.06.2023 19:48:40,'book_save': book's data successfully saved
+29.06.2023 19:48:40,'student_save': students' data successfully saved
+29.06.2023 19:48:40,'student_save': students' book data successfully saved
+29.06.2023 19:48:40,'auth_save': user's data successfully saved
+29.06.2023 19:48:40,Terminated
+
+29.06.2023 19:50:57,'auth_init': success
+29.06.2023 19:50:57,'book_init': success
+29.06.2023 19:50:57,'student_init': success
+29.06.2023 19:51:13,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:51:13,'cli': Logged as 'admin2'
+29.06.2023 19:52:13,'book_save': book's data successfully saved
+29.06.2023 19:52:13,'student_save': students' data successfully saved
+29.06.2023 19:52:13,'student_save': students' book data successfully saved
+29.06.2023 19:52:13,'auth_save': user's data successfully saved
+29.06.2023 19:52:13,Terminated
+
+29.06.2023 19:52:19,'auth_init': success
+29.06.2023 19:52:19,'book_init': success
+29.06.2023 19:52:19,'student_init': success
+29.06.2023 19:52:25,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 19:52:25,'cli': Logged as 'admin2'
+29.06.2023 19:52:55,'book_save': book's data successfully saved
+29.06.2023 19:52:55,'student_save': students' data successfully saved
+29.06.2023 19:52:55,'student_save': students' book data successfully saved
+29.06.2023 19:52:55,'auth_save': user's data successfully saved
+29.06.2023 19:52:55,Terminated
+
+29.06.2023 19:52:57,'auth_init': success
+29.06.2023 19:52:57,'book_init': success
+29.06.2023 19:52:57,'student_init': success
+29.06.2023 19:53:47,'auth_init': success
+29.06.2023 19:53:47,'book_init': success
+29.06.2023 19:53:47,'student_init': success
+29.06.2023 19:54:14,'auth_init': success
+29.06.2023 19:54:14,'book_init': success
+29.06.2023 19:54:14,'student_init': success
+29.06.2023 19:55:16,'auth_init': success
+29.06.2023 19:55:16,'book_init': success
+29.06.2023 19:55:16,'student_init': success
+29.06.2023 19:56:32,'auth_init': success
+29.06.2023 19:56:32,'book_init': success
+29.06.2023 19:56:32,'student_init': success
+29.06.2023 19:56:59,'auth_init': success
+29.06.2023 19:56:59,'book_init': success
+29.06.2023 19:56:59,'student_init': success
+29.06.2023 19:57:19,'auth_init': success
+29.06.2023 19:57:19,'book_init': success
+29.06.2023 19:57:19,'student_init': success
+29.06.2023 19:57:46,'auth_init': success
+29.06.2023 19:57:46,'book_init': success
+29.06.2023 19:57:46,'student_init': success
+29.06.2023 19:58:29,'auth_init': success
+29.06.2023 19:58:35,'book_init': success
+29.06.2023 19:58:38,'student_init': success
+29.06.2023 19:58:57,'auth_init': success
+29.06.2023 19:58:58,'book_init': success
+29.06.2023 20:00:24,'student_init': success
+29.06.2023 20:01:09,'auth_init': success
+29.06.2023 20:01:10,'book_init': success
+29.06.2023 20:01:11,'student_init': success
+29.06.2023 20:02:23,'auth_init': success
+29.06.2023 20:02:23,'book_init': success
+29.06.2023 20:02:23,'student_init': success
+29.06.2023 20:04:58,'auth_init': success
+29.06.2023 20:04:58,'book_init': success
+29.06.2023 20:04:58,'student_init': success
+29.06.2023 20:05:07,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:05:07,'cli': Logged as 'admin2'
+29.06.2023 20:05:08,'book_save': book's data successfully saved
+29.06.2023 20:05:08,'student_save': students' data successfully saved
+29.06.2023 20:05:08,'student_save': students' book data successfully saved
+29.06.2023 20:05:08,'auth_save': user's data successfully saved
+29.06.2023 20:05:08,Terminated
+
+29.06.2023 20:05:33,'auth_init': success
+29.06.2023 20:05:33,'book_init': success
+29.06.2023 20:05:33,'student_init': success
+29.06.2023 20:05:38,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:05:38,'cli': Logged as 'admin2'
+29.06.2023 20:05:39,'book_save': book's data successfully saved
+29.06.2023 20:05:39,'student_save': students' data successfully saved
+29.06.2023 20:05:39,'student_save': students' book data successfully saved
+29.06.2023 20:05:39,'auth_save': user's data successfully saved
+29.06.2023 20:05:39,Terminated
+
+29.06.2023 20:05:59,'auth_init': success
+29.06.2023 20:05:59,'book_init': success
+29.06.2023 20:05:59,'student_init': success
+29.06.2023 20:06:04,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:06:04,'cli': Logged as 'admin2'
+29.06.2023 20:06:14,'book_save': book's data successfully saved
+29.06.2023 20:06:14,'student_save': students' data successfully saved
+29.06.2023 20:06:14,'student_save': students' book data successfully saved
+29.06.2023 20:06:14,'auth_save': user's data successfully saved
+29.06.2023 20:06:14,Terminated
+
+29.06.2023 20:06:51,'auth_init': success
+29.06.2023 20:06:51,'book_init': success
+29.06.2023 20:06:51,'student_init': success
+29.06.2023 20:06:56,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:06:56,'cli': Logged as 'admin2'
+29.06.2023 20:06:58,'book_save': book's data successfully saved
+29.06.2023 20:06:58,'student_save': students' data successfully saved
+29.06.2023 20:06:58,'student_save': students' book data successfully saved
+29.06.2023 20:06:58,'auth_save': user's data successfully saved
+29.06.2023 20:06:58,Terminated
+
+29.06.2023 20:08:23,'auth_init': success
+29.06.2023 20:08:23,'book_init': success
+29.06.2023 20:08:23,'student_init': success
+29.06.2023 20:08:27,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:08:27,'cli': Logged as 'admin2'
+29.06.2023 20:08:29,'book_save': book's data successfully saved
+29.06.2023 20:08:29,'student_save': students' data successfully saved
+29.06.2023 20:08:29,'student_save': students' book data successfully saved
+29.06.2023 20:08:29,'auth_save': user's data successfully saved
+29.06.2023 20:08:29,Terminated
+
+29.06.2023 20:09:21,'auth_init': success
+29.06.2023 20:09:21,'book_init': success
+29.06.2023 20:09:21,'student_init': success
+29.06.2023 20:09:33,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:09:33,'cli': Logged as 'admin2'
+29.06.2023 20:09:35,'book_save': book's data successfully saved
+29.06.2023 20:09:35,'student_save': students' data successfully saved
+29.06.2023 20:09:35,'student_save': students' book data successfully saved
+29.06.2023 20:09:35,'auth_save': user's data successfully saved
+29.06.2023 20:09:35,Terminated
+
+29.06.2023 20:10:25,'auth_init': success
+29.06.2023 20:10:25,'book_init': success
+29.06.2023 20:10:25,'student_init': success
+29.06.2023 20:10:35,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:10:35,'cli': Logged as 'admin2'
+29.06.2023 20:10:38,'book_save': book's data successfully saved
+29.06.2023 20:10:38,'student_save': students' data successfully saved
+29.06.2023 20:10:38,'student_save': students' book data successfully saved
+29.06.2023 20:10:38,'auth_save': user's data successfully saved
+29.06.2023 20:10:38,Terminated
+
+29.06.2023 20:11:09,'auth_init': success
+29.06.2023 20:11:09,'book_init': success
+29.06.2023 20:11:09,'student_init': success
+29.06.2023 20:11:14,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:11:14,'cli': Logged as 'admin2'
+29.06.2023 20:11:16,'book_save': book's data successfully saved
+29.06.2023 20:11:16,'student_save': students' data successfully saved
+29.06.2023 20:11:16,'student_save': students' book data successfully saved
+29.06.2023 20:11:16,'auth_save': user's data successfully saved
+29.06.2023 20:11:16,Terminated
+
+29.06.2023 20:11:53,'auth_init': success
+29.06.2023 20:11:53,'book_init': success
+29.06.2023 20:11:53,'student_init': success
+29.06.2023 20:11:57,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:11:57,'cli': Logged as 'admin2'
+29.06.2023 20:12:02,'book_save': book's data successfully saved
+29.06.2023 20:12:02,'student_save': students' data successfully saved
+29.06.2023 20:12:02,'student_save': students' book data successfully saved
+29.06.2023 20:12:02,'auth_save': user's data successfully saved
+29.06.2023 20:12:02,Terminated
+
+29.06.2023 20:12:07,'auth_init': success
+29.06.2023 20:12:07,'book_init': success
+29.06.2023 20:12:07,'student_init': success
+29.06.2023 20:12:11,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:12:11,'cli': Logged as 'admin2'
+29.06.2023 20:12:24,'book_save': book's data successfully saved
+29.06.2023 20:12:24,'student_save': students' data successfully saved
+29.06.2023 20:12:24,'student_save': students' book data successfully saved
+29.06.2023 20:12:24,'auth_save': user's data successfully saved
+29.06.2023 20:12:24,Terminated
+
+29.06.2023 20:20:34,'auth_init': success
+29.06.2023 20:20:34,'book_init': success
+29.06.2023 20:20:34,'student_init': success
+29.06.2023 20:20:39,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:20:39,'cli': Logged as 'admin2'
+29.06.2023 20:21:05,'studentbook_showAllBooksAtStudent': student isn't found
+29.06.2023 20:21:11,'student_findBySurname' success
+29.06.2023 20:21:44,'studentbook_showAllBooksAtStudent': Success!
+29.06.2023 20:21:47,'book_save': book's data successfully saved
+29.06.2023 20:21:47,'student_save': students' data successfully saved
+29.06.2023 20:21:47,'student_save': students' book data successfully saved
+29.06.2023 20:21:47,'auth_save': user's data successfully saved
+29.06.2023 20:21:47,Terminated
+
+29.06.2023 20:22:23,'auth_init': success
+29.06.2023 20:22:23,'book_init': success
+29.06.2023 20:22:23,'student_init': success
+29.06.2023 20:22:27,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:22:27,'cli': Logged as 'admin2'
+29.06.2023 20:22:31,'book_save': book's data successfully saved
+29.06.2023 20:22:31,'student_save': students' data successfully saved
+29.06.2023 20:22:31,'student_save': students' book data successfully saved
+29.06.2023 20:22:31,'auth_save': user's data successfully saved
+29.06.2023 20:22:31,Terminated
+
+29.06.2023 20:22:58,'auth_init': success
+29.06.2023 20:22:58,'book_init': success
+29.06.2023 20:22:58,'student_init': success
+29.06.2023 20:23:02,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:23:02,'cli': Logged as 'admin2'
+29.06.2023 20:23:12,'book_save': book's data successfully saved
+29.06.2023 20:23:12,'student_save': students' data successfully saved
+29.06.2023 20:23:12,'student_save': students' book data successfully saved
+29.06.2023 20:23:12,'auth_save': user's data successfully saved
+29.06.2023 20:23:12,Terminated
+
+29.06.2023 20:23:28,'auth_init': success
+29.06.2023 20:23:28,'book_init': success
+29.06.2023 20:23:28,'student_init': success
+29.06.2023 20:23:34,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:23:34,'cli': Logged as 'admin2'
+29.06.2023 20:26:25,'auth_init': success
+29.06.2023 20:26:25,'book_init': success
+29.06.2023 20:26:25,'student_init': success
+29.06.2023 20:26:31,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:26:31,'cli': Logged as 'admin2'
+29.06.2023 20:28:19,'auth_init': success
+29.06.2023 20:28:19,'book_init': success
+29.06.2023 20:28:19,'student_init': success
+29.06.2023 20:28:24,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:28:24,'cli': Logged as 'admin2'
+29.06.2023 20:29:44,'auth_init': success
+29.06.2023 20:29:44,'book_init': success
+29.06.2023 20:29:44,'student_init': success
+29.06.2023 20:29:50,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:29:50,'cli': Logged as 'admin2'
+29.06.2023 20:30:21,'auth_init': success
+29.06.2023 20:30:21,'book_init': success
+29.06.2023 20:30:21,'student_init': success
+29.06.2023 20:30:26,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:30:26,'cli': Logged as 'admin2'
+29.06.2023 20:31:35,'auth_init': success
+29.06.2023 20:31:35,'book_init': success
+29.06.2023 20:31:35,'student_init': success
+29.06.2023 20:31:40,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:31:40,'cli': Logged as 'admin2'
+29.06.2023 20:35:39,'studentbook_take': success
+29.06.2023 20:36:25,'studentbook_returnBook': Success!
+29.06.2023 20:37:42,'student_add': success
+29.06.2023 20:38:06,'studentbook_showAllBooksAtStudent': Success!
+29.06.2023 20:38:50,'student_del' - success
+29.06.2023 20:39:17,'studentbook_showAllBooksAtStudent': Success!
+29.06.2023 20:41:10,'studentbook_showAllStudentsWithBook': success
+29.06.2023 20:41:16,'studentbook_showAllStudentsWithBook' err: book isn't found
+29.06.2023 20:47:05,'book_save': book's data successfully saved
+29.06.2023 20:47:05,'student_save': students' data successfully saved
+29.06.2023 20:47:05,'student_save': students' book data successfully saved
+29.06.2023 20:47:05,'auth_save': user's data successfully saved
+29.06.2023 20:47:05,Terminated
+
+29.06.2023 20:47:19,'auth_init': success
+29.06.2023 20:47:19,'book_init': success
+29.06.2023 20:47:19,'student_init': success
+29.06.2023 20:47:50,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:47:50,'cli': Logged as 'admin2'
+29.06.2023 20:47:52,'book_save': book's data successfully saved
+29.06.2023 20:47:52,'student_save': students' data successfully saved
+29.06.2023 20:47:52,'student_save': students' book data successfully saved
+29.06.2023 20:47:52,'auth_save': user's data successfully saved
+29.06.2023 20:47:52,Terminated
+
+29.06.2023 20:51:10,'auth_init': success
+29.06.2023 20:51:10,'book_init': success
+29.06.2023 20:51:10,'student_init': success
+29.06.2023 20:51:21,'auth_checkUserWithEcho': logged user - 'admin2'
+29.06.2023 20:51:21,'cli': Logged as 'admin2'
+29.06.2023 20:54:33,'studentbook_take': success
+29.06.2023 20:54:57,'studentbook_showAllStudentsWithBook': success
+29.06.2023 20:55:30,'studentbook_returnBook': Success!
+29.06.2023 20:55:47,'book_save': book's data successfully saved
+29.06.2023 20:55:47,'student_save': students' data successfully saved
+29.06.2023 20:55:47,'student_save': students' book data successfully saved
+29.06.2023 20:55:47,'auth_save': user's data successfully saved
+29.06.2023 20:55:47,Terminated
+
+29.06.2023 20:56:11,'auth_init': success
+29.06.2023 20:56:11,'book_init': success
+29.06.2023 20:56:11,'student_init': success
+03.07.2023 00:49:36,'auth_init': success
+03.07.2023 00:49:36,'book_init': success
+03.07.2023 00:49:36,'student_init': success
+03.07.2023 00:49:45,'auth_checkUserWithEcho': logged user - 'admin2'
+03.07.2023 00:49:45,'cli': Logged as 'admin2'
+03.07.2023 00:50:11,'studentbook_showAllStudentsWithBook': success
