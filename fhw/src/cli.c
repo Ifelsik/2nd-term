@@ -5,10 +5,6 @@ void cli(User_t *user, Student_t **students_list_ptr, Book_t **books_list_ptr) {
     char msg[64];
     sprintf(msg, "'cli': Logged as '%s'", user->login);
     log_msg(msg);
-    // if (NULL == user) {
-    //     err_msg("Wrong login or password. Please, try again!");
-    //     return;
-    // }
     if (user->books_access && !user->students_access) {
         cli_booksMenu(books_list_ptr, students_list_ptr);
         printf("Exit...\n");

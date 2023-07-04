@@ -161,9 +161,9 @@ void book_del(Book_t **books_list_ptr, unsigned long long isbn) {
         book->next->prev = book->prev;
     }
     
-    free(book->authors);
-    free(book->title);
-    free(book);
+    // free(book->authors);
+    // free(book->title);
+    // free(book);
     printf("book_del: Success!\n");
 }
 
